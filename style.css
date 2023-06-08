@@ -1,0 +1,85 @@
+.underlined {
+  position: relative;
+  margin-right: 1rem;
+  font-size: 40px;
+  }
+
+.underlined:after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 25%;
+  height: 7px;
+  width: 50%;
+  border: solid 2px grey;
+  border-color: grey transparent transparent transparent;
+  border-radius: 50%;
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  color: lightcoral;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Apple Chancery", cursive;
+}
+
+h3 {
+  color: lightcoral;
+  text-align: left;
+  font-size: 24px;
+  font-family: "URW Chancery L", cursive;
+}
+
+.rounded {
+  background: rgb(235, 159, 170);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: Didot, serif;
+}
+
+.rounded li {
+  background: rgb(235, 186, 193);
+  margin: 5px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+a:link {
+  color: rgb(121, 68, 100);
+}
+
+a:visited {
+  color: rgb(106, 102, 102);
+}
+
+.font-settings {
+  font-size: 18px;
+  font-family: Georgia, serif;
+}
+
+div {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+ul li {
+    padding: 2px;
+    list-style-type: square ;
+}
+
+ol li {
+    padding: 3px;
+    list-style-type: upper-roman;
+}
+
